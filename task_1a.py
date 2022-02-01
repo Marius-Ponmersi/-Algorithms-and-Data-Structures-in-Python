@@ -11,7 +11,8 @@
 # d. написать общий вывод: какой из трёх вариантов лучше и почему.
 
 from memory_profiler import profile
-
+# import sys
+# print(sys.version, sys.platform)
 summa = 0
 
 
@@ -29,6 +30,8 @@ def sum_el(n: int):   # n - число элеметов списка
 
 if __name__ == '__main__':
     sum_el(500)
+
+# 3.9.4 (tags/v3.9.4:1f2e308, Apr  6 2021, 13:40:21) [MSC v.1928 64 bit (AMD64)] win32
 
 # Line #    Mem usage    Increment  Occurrences   Line Contents
 # =============================================================
